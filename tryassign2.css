@@ -15,18 +15,18 @@ body{
 	}
 
 .top3{
-	margin-top: 7%;
+	margin-top: 5%;
 	display:auto;
 	 float: right;
 	 flex:3;
 	}
 .top2{
-	margin-top: 3%;
+	margin-top: 1%;
 	flex:4;
 	}
 .top1{
 	flex:1;
-	margin-top: 2%;
+	margin-top: 0%;
 	
 }
 
@@ -175,6 +175,32 @@ padding-bottom: 1%;
 a{
 	text-decoration: none;
 }
+.base{
+	display: flex;
+	color:black;
+}
+.Us{
+	flex:1;
+}
+.MailUs
+{
+text-align: center;
+	font-size: 15px;
+	color:black;
+	margin:0;
+	background-color: #3333ff;
+	padding-top:2%	
+}
+.ContactUs
+{
+text-align: center;
+	font-size: 15px;
+	color:Black;
+	margin:0;
+	background-color: #3333ff;
+	padding-top:5%	
+}
+
 .FollowUs
 {
 	text-align: center;
@@ -182,10 +208,10 @@ a{
 	color:blue;
 	margin:0;
 	background-color: #3333ff;
-	padding-top:2%;
+	padding-top:5%;
 	
 }
-.fab{
+.fas, .fab{
 	color:white;
 }
 @media only screen and (max-width: 420px) {
