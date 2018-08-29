@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<title> MY FIRST WEBSITE</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="tryassign2.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	</head>
+	<body>
+		
+		<div class="header">			
+			<div class="top top1">
+				<img src="logo.jpg" width="100%" height="80%"/>
+			</div> 
+
+			<div class="top top2">
+				<h1 id="name">Welcome To German Tourism</h1>
+				<h7>The Best Guide</h7>
+			</div>
+		
+			<div class="top top3">
+			<form action="#" method="get">
+			<lable for="name" color="white">Search:</lable>
+			<input id="name" name="name">
+			<input type="submit" value="Go!" />
+			</form>
+		    </div>
+		
+		</div>
+
+		<div class="container">
+				
+				<div class="box box1">Home</div>
+				<div class="box box2">At A Glance</div>
+				<div class="box box3">About Us</div>
+				<div class="box box4">Contact</div>
+				<div class="box box5">Login</div>
+				<div class="box box6">Register</div>
+		</div>
+
+		<section class="hero-img">
+			<div class="hero-text">
+			<button id="exp"><a href="#">Explore</a></button>
+			</div>
+		</section>
+
+
+		<h3 id="em_center">MUST VISIT</h3>
+		
+		<div class="places">
+				
+
+				<div class="pic pic1">
+					<a href="#"><img src="bw.jpg" alt="Berlin wall" width="200px" height="150px"</a>
+					<h5>Berlin Wall</h5>
+
+				</div>
+				<div class="pic pic2">
+					<a href="#"><img src="zg.jpg" alt="Zwinger Garten" width="200px" height="150px"</a>
+					<h5>Zwinger Garten</h5>
+
+				</div>
+				
+				<div class="pic pic4">
+					<a href="#"><img src="bw.jpeg" alt="Bergpark Wilhelmshöhe" width="200px" height="150px"</a>
+					<h5>Bergpark Wilhelmshöhe</h5>
+
+				</div>
+				<div class="pic pic4">
+					<a href="#"><img src="df.jpg" alt="Dresden Frauenkirche" width="200px" height="150px"</a>
+					<h5>Dresden Frauenkirche</h5>
+
+				</div>
+				<div class="pic pic5">
+					<a href="#"><img src="cc.jpg" alt="Cologne Cathedral" width="200px" height="150px"</a>
+					<h5>Cologne Cathedral</h5>
+
+				</div>
+				<div class="pic pic6">
+					<a href="#"><img src="np.jpg" alt="Neuschwanstein Castle" width="200px" height="150px"</a>
+					<h5>Neuschwanstein Castle</h5>
+				</div>
+			</div>
+	<div class="fence">
+		<h3 id="em_center">Plan Ahead</h3>
+		
+		<div class="planahead">
+			<div class="ahead ahead1"><img src="images1.png" height="200vh" width="270wh" >MAPS & GUIDES</div>
+			<div class="ahead ahead2"><img src="camera1.jpeg" height="200vh" width="260wh">ATTRACTION PASSESS</div>
+			<div class="ahead ahead3"><img src="ticket1.jpeg" height="200vh" width="270wh">TICKETS & DEALS</div>
+			<div class="ahead ahead4"><img src="idea1.jpeg" height="200vh" width="270wh">BASIC INFO</div>
+		</div>
+	</div>
+
+	<div class="fence1">
+		<h2>Search Hotel Availability</h2>
+		<form action="#" method="get">
+			<input id="name" name="name">
+			<input type="submit" value="Search" />
+			</form>
+		<h3>OR</h3><br>
+		<h2>Search by Category</h2>
+		<div class="categorywise">
+			    <div class="cat cat1">All</div>
+				<div class="cat cat2">Luxury</div>
+				<div class="cat cat3">Hip & Lifestyle</div>
+				<div class="cat cat4">Mid-Tier</div>
+				<div class="cat cat5">Budget</div>
+		</div>
+	</div>
+
+
+
+
+
+		
+	
+	<footer class="FollowUs">
+			<h3 id="em_center">FOLLOW US:</h3>
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-twitter-square"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-pinterest"></i>
+	</footer>
+	</body>
+		<html>
